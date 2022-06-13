@@ -12,8 +12,8 @@ COMMANDS       = ['CLR', 'BACK', '+/-', '=']
 FONT           = ('Terminal', 24, 'bold')
 
 # Define button geometry and axis positions
-BUTTON_WIDTH   = 0.25
-BUTTON_HEIGHT  = 0.2
+BUTTON_WIDTH  = 0.25
+BUTTON_HEIGHT = 0.2
 
 POS_X_1 = 0.125
 POS_X_2 = 0.375
