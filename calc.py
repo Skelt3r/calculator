@@ -6,10 +6,10 @@ root.geometry('480x640')
 root.title('Calculator')
 
 # Define fonts and button values
-STATIC_VALUES  = ['.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-OPERATORS      = ['+', '-', '*', '/', '%']
-COMMANDS       = ['CLR', 'BACK', '+/-', '=']
-FONT           = ('Terminal', 24, 'bold')
+STATIC_VALUES = ['.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+OPERATORS     = ['+', '-', '*', '/', '%']
+COMMANDS      = ['CLR', 'BACK', '+/-', '=']
+FONT          = ('Terminal', 24, 'bold')
 
 # Define button geometry and axis positions
 BUTTON_WIDTH  = 0.25
