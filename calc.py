@@ -20,11 +20,8 @@ POS_Y_3 = 0.5
 POS_Y_4 = 0.7
 POS_Y_5 = 0.9
 
-display = StringVar()
-display_values = list()
 
-
-class CalcButton():
+class CalcButton:
     def __init__(self, text, pos_x, pos_y):
         self.button = Button(master=button_frame,
                              activebackground='black',
@@ -86,6 +83,9 @@ if __name__ == '__main__':
     root = Tk()
     root.geometry('480x640')
     root.title('Calculator')
+
+    display = StringVar()
+    display_values = list()
 
     root_frame = Frame(root, bg='white')
     button_frame = Frame(root_frame, bg='white', bd=3, relief='solid')
